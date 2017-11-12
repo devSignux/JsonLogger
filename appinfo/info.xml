@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>jsonlogger</id>
+    <name>Json Logger</name>
+    <summary>Log json data</summary>
+    <description><![CDATA[This app log json data (such like sensor data)]]></description>
+    <licence>agpl</licence>
+    <author mail="cs.g@gmx.net" homepage="https://github.com/devSignux/JsonLogger">Chris Schmidt</author>
+    <version>0.0.1</version>
+    <namespace>JsonLogger</namespace>
+    <category>monitoring</category>
+    <bugs>https://github.com/devSignux/JsonLogger/issues</bugs>
+    <dependencies>
+        <owncloud min-version="9.2"/>
+        <nextcloud min-version="11" max-version="11"/>
+    </dependencies>
+</info>
